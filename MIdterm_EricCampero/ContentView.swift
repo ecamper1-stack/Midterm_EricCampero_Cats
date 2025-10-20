@@ -31,7 +31,7 @@ struct ContentView: View {
             }
             .padding(.top, 8)
         }
-        .navigationTitle("Top 10 Cats") // Title
+        .navigationTitle("Eric's Top 10 Cats") // Title
         .navigationDestination(for: Subject.self) { cat in
             DetailView(cat: cat)
         }
